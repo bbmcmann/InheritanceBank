@@ -10,4 +10,7 @@ public class SavingsAccount extends Account{
         super.deposit(getBalance() * interestRate);
     }
 
+    public void update(){
+        interest();
+    }
 }
