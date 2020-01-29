@@ -7,8 +7,7 @@
    @author Stuart Reynolds ... 1999
 */
 
-public class Account
-{
+public class Account{
     private double bal;  //The current balance
     private int accnum;  //The account number
     
