@@ -1,7 +1,13 @@
 public class SavingsAccount extends Account{
 
-    public SavingsAccount(int a){
+    private double interestRate;
+    public SavingsAccount(int a, double interestRate){
         super(a);
+        this.interestRate = interestRate;
+    }
+
+    public void interest(){
+        super.deposit(getBalance() * interestRate);
     }
 
 }
